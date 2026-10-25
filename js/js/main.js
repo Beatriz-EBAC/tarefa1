@@ -1,0 +1,6 @@
+
+function mensagem() {
+  console.log('Gulp executando com sucesso!');
+}
+
+mensagem();
