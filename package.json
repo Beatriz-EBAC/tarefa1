@@ -2,7 +2,7 @@
 {
   "name": "exercicio-gulp",
   "version": "1.0.0",
-  "description": "Exercicio EBAC com Gulp, SASS, imagens e JavaScript",
+  "description": "Exercicio EBAC com Gulp, compilacao SASS, compressao de imagens e JavaScript",
   "scripts": {
     "gulp": "gulp"
   },
