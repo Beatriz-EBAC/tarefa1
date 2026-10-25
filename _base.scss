@@ -1,0 +1,56 @@
+
+@use 'variables' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: v.$background;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: v.$container-width;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: v.$primary-color;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: v.$spacing 0;
+  }
+}
+
+.menu {
+  display: flex;
+
+  li {
+    font-weight: bold;
+    margin-left: 24px;
+
+    a {
+      color: v.$text-color;
+      text-decoration: none;
+    }
+  }
+}
+
+section {
+  padding: 56px 0;
+}
+  
