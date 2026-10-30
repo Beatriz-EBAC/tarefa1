@@ -1,0 +1,10 @@
+{
+  "name": "exercicio-grunt",
+  "version": "1.0.0",
+  "description": "Exercicio de automacao com Grunt",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  }
+}
