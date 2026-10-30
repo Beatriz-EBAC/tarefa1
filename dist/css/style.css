@@ -1,5 +1,14 @@
-/* Arquivo CSS gerado pelo Grunt */
-
 body {
-    font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  font-family: Arial, sans-serif;
+  color: #182C61;
+}
+h1 {
+  color: #182C61;
+}
+button {
+  background-color: #44bd32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
 }
