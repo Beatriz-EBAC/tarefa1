@@ -1,0 +1,5 @@
+function mensagem() {
+    console.log("Projeto Grunt executado com sucesso!");
+}
+
+mensagem();
